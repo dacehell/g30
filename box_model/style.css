@@ -1,0 +1,40 @@
+/*reset del boxsizing*/
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*,
+:after {
+  box-sizing: border-box;
+}
+
+/* reset margin y padding*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  background-color: aqua;
+  width: 800px;
+  height: 800px;
+  margin: 0;
+  padding: 0;
+  /* font-size: 10px; */
+}
+
+div > p {
+  padding: 20px;
+  margin: 0;
+  border: 50px solid red;
+  width: 400px;
+  background-color: gold;
+  font-size: 1em;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+/* 1 rem equivale a el font-size de la raiz del elemento ya sea html o configuracion del navegador
+1 em equivale al font-size del elemento padre y si no tiene uno definiso toma el del padre mas cercano que seria el html
+*/
