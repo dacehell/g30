@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.parrafo1,
+.parrafo2 {
+  margin: 4rem;
+  color: white;
+  background-color: black;
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .parrafo2 {
+    font-size: 5rem;
+    background-color: plum;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .parrafo1 {
+    font-size: 2rem;
+    background-color: red;
+    color: yellowgreen;
+    display: none;
+  }
+}
