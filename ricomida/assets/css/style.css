@@ -1,0 +1,47 @@
+:root{
+    --cabyn:font-family: 'Cabin', sans-serif;
+    --negroL:#373a3c;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
+.bg-darkgrey {
+  background-color: var(--negroL) ;
+}
+.navbar-brand {
+  font-family: "Lobster", cursive;
+  font-size: 28px;
+}
+.title-wrap {
+  width: 55%;
+}
+.title-wrap h2{
+    font-family: var(--cabyn);
+}
+.carousel-indicators [data-bs-target]{
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: black;
+}
+.carousel-indicators{
+    top:110%
+}
+
+.bg-subscribete{
+    background-color:#DC3545
+}
+
+@media screen  and (max-width:768px) {
+    .title-wrap{
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    .title-wrap h2{
+        text-align: center;
+    }
+}
